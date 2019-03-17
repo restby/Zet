@@ -1,0 +1,17 @@
+body {
+  max-width: 1600px;
+  @include ma-pa-reset;
+  @include ma-auto;
+  font-family: "Montserrat", "Arial", sans-serif;
+  background-color: $color-white;
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
